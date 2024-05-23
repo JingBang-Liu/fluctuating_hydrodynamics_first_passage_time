@@ -43,7 +43,7 @@ cm=sns.color_palette('Paired',8)
 sns.set_palette(cm)
 
 # for energy change
-data = np.loadtxt('data/STFE_U_all_0.0005.txt') # energy data
+data = np.loadtxt('STFE_U_all_0.0005.txt') # energy data
 U_s = data[0]
 U_s_sim = data[1]
 U_a = data[2]
@@ -64,7 +64,7 @@ epsilon = 0.0005 # noise amplitude
 del(data)
 
 # for profile
-data_profiles = np.loadtxt('data/STFE_profiles_0.0005.txt') # profile data
+data_profiles = np.loadtxt('STFE_profiles_0.0005.txt') # profile data
 x = data_profiles[:,0]
 profiles = data_profiles[:,1:]
 del(data_profiles)
