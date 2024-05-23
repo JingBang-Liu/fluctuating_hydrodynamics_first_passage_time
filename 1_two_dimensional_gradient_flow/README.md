@@ -1,0 +1,1 @@
+1. First calculate initial point and saddle point using Mathematica script "dw_paper_steadystates.nb"
