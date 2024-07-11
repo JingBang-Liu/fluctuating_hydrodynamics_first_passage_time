@@ -1,0 +1,39 @@
+Opening log file:  /home/maths/phrdzf/java.log.1328
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018b (9.5.0.944444) 64-bit (glnxa64)
+                              August 28, 2018
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+    ----------------------------------------------------
+	Your MATLAB license will expire in 2 days.
+	Please contact your system administrator or
+	MathWorks to renew this license.
+    ----------------------------------------------------
+seed is 2
+eps is 9e-05
+rho0 is 0.79076
+number of event is 0
+number of event is 1
+number of event is 2
+number of event is 5
+number of event is 6
+number of event is 9
+number of event is 9
+number of event is 11
+number of event is 12
+number of event is 14
+number of event is 15
+number of event is 15
+number of event is 16
+number of event is 17
+number of event is 18
+number of event is 21
+number of event is 22
+number of event is 24
+number of event is 24
+Elapsed time is 1324.873994 seconds.

@@ -1,0 +1,7 @@
+## Monte Carlo simulations
+Under /cluster_calculation/Monte_Carlo, there are individual directories containing Matlab script "lstf.m" that solves the stochastic thin film equation with different noise amplitude. The noise amplitude is indicated by the names of the directories. There are two key parameters in "lstf.m": 1) Nevent, after which the program stops, 2) seed, seed for random number generation. For small noise amplitude, such at 0.0004, the waiting time is long, we set Nevent=12, and run several in parallel, to reduce computational time. "combine.m" then combines output into one file, and one can then calculate average waiting time. For large noise amplitude, there is no need to set Nevent small.
+## Average waiting time and Eyring-Kramer's Law
+1. First find the saddle shape by running Matlab script "constant_mob_GAD_JB.m". The script uses Gentlest ascent dynamics and exponential differencing method to calculate the saddle shape, and saves the saddle shape to "s_temp_1.01.mat".
+2. The prefactors are calculated in "plot_EK.m", and theoretical average waiting time is compared with Monte Carlo simulation results in a plot.
+## Over coming energy barrier
+Relevent codes are under /cluster_calculation/energy_barrier/. We choose noise amplitude 0.0005, solve the stochastic thin film equation for 400 realisations using Matlab script "lstf.m". One should run "data_process.m" and then "plot_energy.m" to gather film profiles and process data. Plot is done with Python script "energy_change.py".
